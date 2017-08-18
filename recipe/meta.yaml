@@ -1,6 +1,6 @@
 {% set name = "pytest-sugar" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "3096bf48967000af09fdb682eaede43761a01cd7f66f013aa36881aa49ebd28e" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "8f1aca70235559f95abe2d7508a029d933e9c9961888d74d423e6460678a9686" %}
 
 package:
   name: {{ name|lower }}
