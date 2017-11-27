@@ -21,10 +21,13 @@ requirements:
     - setuptools
   run:
     - python
-    - django >=1.8
     - termcolor
     - py
     - pytest
+
+test:
+  requires:
+    - django >=1.8
 
 about:
   home: https://github.com/Frozenball/pytest-sugar
