@@ -26,8 +26,8 @@ requirements:
     - pytest
 
 test:
-  requires:
-    - django >=1.8
+  imports:
+    - pytest_sugar
 
 about:
   home: https://github.com/Frozenball/pytest-sugar
