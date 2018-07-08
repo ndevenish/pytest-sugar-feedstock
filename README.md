@@ -16,14 +16,15 @@ shows a progress bar.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-sugar-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-sugar-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-sugar-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-sugar-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-sugar-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-sugar-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-sugar-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-sugar-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-sugar/badges/version.svg)](https://anaconda.org/conda-forge/pytest-sugar)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-sugar/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-sugar)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--sugar-green.svg)](https://anaconda.org/conda-forge/pytest-sugar) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-sugar.svg)](https://anaconda.org/conda-forge/pytest-sugar) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-sugar.svg)](https://anaconda.org/conda-forge/pytest-sugar) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-sugar.svg)](https://anaconda.org/conda-forge/pytest-sugar) |
 
 Installing pytest-sugar
 =======================
