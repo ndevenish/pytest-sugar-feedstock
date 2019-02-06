@@ -23,9 +23,10 @@ requirements:
     - setuptools
   run:
     - python
-    - termcolor
+    - termcolor >=1.1.0
     - py
-    - pytest
+    - pytest >=2.9
+    - packaging >=14.1
 
 test:
   imports:
