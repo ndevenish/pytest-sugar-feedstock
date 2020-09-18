@@ -1,39 +1,40 @@
 {% set name = "pytest-sugar" %}
 {% set version = "0.9.4" %}
-{% set sha256 = "b1b2186b0a72aada6859bea2a5764145e3aaa2c1cfbb23c3a19b5f7b697563d3" %}
+
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: b1b2186b0a72aada6859bea2a5764145e3aaa2c1cfbb23c3a19b5f7b697563d3
 
 build:
+  number: 1
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - pip
     - python
-    - setuptools
+    - pip
   run:
     - python
-    - termcolor >=1.1.0
-    - py
-    - pytest >=2.9
     - packaging >=14.1
+    - pytest >=2.9
+    - termcolor >=1.1.0
 
 test:
   imports:
     - pytest_sugar
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
-  home: https://github.com/Frozenball/pytest-sugar
+  home: http://pivotfinland.com/pytest-sugar/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -41,10 +42,10 @@ about:
   description: |
     pytest-sugar is a plugin for py.test that shows failures and errors instantly and 
     shows a progress bar.  
-  doc_url: http://pydoc.net/pytest-sugar/0.8.0/
-  dev_url: https://github.com/Frozenball/pytest-sugar
+  dev_url: https://github.com/Teemu/pytest-sugar/
 
 extra:
   recipe-maintainers:
     - cshaley
     - sannykr
+    - ocefpaf
