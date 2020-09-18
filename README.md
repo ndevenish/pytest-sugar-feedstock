@@ -1,7 +1,7 @@
 About pytest-sugar
 ==================
 
-Home: https://github.com/Frozenball/pytest-sugar
+Home: http://pivotfinland.com/pytest-sugar/
 
 Package license: BSD-3-Clause
 
@@ -119,5 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@cshaley](https://github.com/cshaley/)
+* [@ocefpaf](https://github.com/ocefpaf/)
 * [@sannykr](https://github.com/sannykr/)
 
