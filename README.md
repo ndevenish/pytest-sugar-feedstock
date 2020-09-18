@@ -5,7 +5,7 @@ Home: https://github.com/Frozenball/pytest-sugar
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: a plugin for py.test that changes the default look and feel of py.test 
 
